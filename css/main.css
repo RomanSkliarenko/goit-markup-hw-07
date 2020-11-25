@@ -81,6 +81,10 @@ header {
   color: #212121;
 }
 
+.navigation a:hover {
+  color: #2196F3;
+}
+
 .navigation li {
   height: 64px;
   display: flex;

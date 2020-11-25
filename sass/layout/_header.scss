@@ -16,7 +16,7 @@ header {
   padding-left: 93px;
   display: flex;
   margin: 0;
-  & a {
+  a {
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -29,6 +29,9 @@ header {
     height: 100%;
     &:not(.current) {
       color: #212121;
+    }
+    &:hover {
+      color: $optional-text-color;
     }
   }
   li {
